@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html  lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 👨🏻‍💻Portfolio Website </title>
+  <link href="./src/output.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+</head>
+<body class="bg-black container mx-auto">  
+<header class=" bg-[#33a1e0] md:p-6 md:w-full">
+  <nav  class="flex  items-center justify-between  md:gap-0">
+    <a  class="text-white text-2xl font-bold  " href=""> <i class="fa-solid fa-user-tie text-xl"></i>My PortFolio</a>
+    <ul class=" hidden md:hidden lg:flex  items-center justify-between gap-9 pr-12">
+      <li ><a class="relative inline  cursor-pointer text-2xl font-bold  before:bg-black  before:absolute before:-bottom-0 before:-left-0  before:block before:h-[4px] before:w-full before:origin-bottom-right before:scale-x-0 before:transition before:duration-300 before:ease-in-out hover:before:origin-bottom-left hover:before:scale-x-100" href="#">Home </a></li>
+      <li><a class="relative   inline   cursor-pointer text-2xl font-bold before:bg-black  before:absolute before:-bottom-0 before:-left-0  before:block before:h-[4px] before:w-full before:origin-bottom-right before:scale-x-0 before:transition before:duration-300 before:ease-in-out hover:before:origin-bottom-left hover:before:scale-x-100" href="#Project" >Project</a></li>
+      <li> <a class="relative  inline   cursor-pointer text-2xl font-bold before:bg-black  before:absolute before:-bottom-0 before:-left-0  before:block before:h-[4px] before:w-full before:origin-bottom-right before:scale-x-0 before:transition before:duration-300 before:ease-in-out hover:before:origin-bottom-left hover:before:scale-x-100" href="#Experienced" >Experience</a></li>
+      <li><a class="relative  inline   cursor-pointer text-2xl font-bold before:bg-black  before:absolute before:-bottom-0 before:-left-0  before:block before:h-[4px] before:w-full before:origin-bottom-right before:scale-x-0 before:transition before:duration-300 before:ease-in-out hover:before:origin-bottom-left hover:before:scale-x-100" href="#Contact">Contact Us</a></li>
+    </ul>
+    <button id="menu-btn" class="lg:hidden text-black font-bold text-3xl ">
+     &#8801;
+    </button>
+  </nav>
+
+  <div id="mobile-menu" class="hidden lg:hidden mt-4">
+    <ul class="flex flex-col gap-4 justify-center items-center ">
+      <li><a  class="text-lg  font-bold cursor-pointer hover:text-gray-200"  href="#">Home</a></li>
+      <li><a class="text-lg  font-bold cursor-pointer hover:text-gray-200" href="#Project">Project</a></li>
+      <li><a  class="text-lg  font-bold cursor-pointer hover:text-gray-200" href="#Experienced">Experience</a></li>
+      <li ><a class="text-lg  font-bold cursor-pointer hover:text-gray-200" href="#Contact">Contact Us</a></li>
+    </ul>
+  </div>
+</header>
+
+
+
+<section class="about md:px-34 py-21 bg-[#bbdce5] ">
+  <div class="conatiner  flex flex-col-reverse md:flex-row  gap-9  items-start justify-center p-2.5">
+      <div class="left md:w-[49%]  flex  flex-col gap-8">
+      <h1 id="heading" class=" text-2xl md:text-xl lg:text-5xl md:text-center font-bold  text-black  cursor-pointer  "> </h1>
+       <p class="md:text-wrap text-black  "> A final-year <strong class="text-blue-700">B.Tech </strong>student in Computer Science and Engineering (AI & ML specialization) and a passionate <strong>Full Stack Developer</strong>. I work with technologies like <strong>HTML, CSS, JavaScript, TypeScript, Tailwind CSS</strong>, and also have experience building data-driven apps using <strong>Streamlit</strong>.</p>
+       <div class="flex gap-10  items-center justify-center md:flex-col xl:flex-row   md:justify-start ">
+                <a class="bg-[#3d74b6] text-sm lg:text-xl px-3 py-2 rounded-full font-bold  border-2 border-black text-white hover:bg-blue-800" href="#Contact">Get in Touch →</a>
+                <a class="bg-[#ffffff] text-[12px] lg:text-xl  px-3 py-2 rounded-full font-bold text-[#000000] border-2 border-black  hover:bg-gray-700 hover:text-white" target="_blank" href="https://bold-sun-249.linkyhost.com" >View My Resumes</a>
+       </div>
+          
+      </div>
+      <div class="right  w-full md:w-1/2 flex justify-center">
+        <img src="portfolio photo.JPG" class="lg:w-90 lg:h-90 w-70 h-70 rounded-full ">
+      </div>
+  </div>
+</section>
+
+
+<section class="project bg-[#33a1e0] " id="Project">
+  <div class="container px-9 py-9 flex flex-col gap-y-9 items-center">
+    <h1 class="relative  cursor-pointer text-5xl font-bold before:bg-black  before:absolute before:-bottom-0 before:-left-0  before:block before:h-[4px] before:w-full before:origin-bottom-right before:scale-x-0 before:transition before:duration-300 before:ease-in-out hover:before:origin-bottom-left hover:before:scale-x-100 ">Project</h1>
+    <div class="grid lg:grid-cols-3  gap-7 ">
+      <div class="project1 flex flex-col gap-7 items-center rounded-2xl  bg-gray-200  pb-5 ">
+        <div>
+          <img src="image.png" alt="green Cart" class="w-full h-auto rounded-t-2xl">
+        </div>
+        <div class="flex flex-col justify-center items-center  gap-5 ">
+          <h1 class="text-black font-bold text-2xl text-center  text-wrap">Green Cart</h1>
+          <p class="text-black text-center mx-5 px-2">
+            A fully responsive grocery shopping app optimized for both mobile and PC.
+             Users can browse products, add to cart, and complete
+            secure payments via Stripe. Features include JWT-based authentication,
+             dynamic product catalog, and order management.</p>
+           <a class=" text-xl px-3 py-2 rounded-full font-bold text-[#000000] border-2 border-black  hover:text-white hover:bg-blue-800" href="https://green-cart-rosy.vercel.app/ " target="_blank">View Project →</a>
+                       
+       </div>
+   </div>
+      <div class="project1 flex flex-col gap-7 items-center  rounded-2xl bg-gray-200 pb-5 ">
+        <div>
+          <img src="currency.png" alt="gym" class="w-full h-auto rounded-t-2xl ">
+        </div>
+        <div class="flex flex-col justify-center items-center  gap-5">
+          <h1 class="text-black font-bold text-2xl text-center  text-wrap">Currency Convertor</h1>
+          <p class="text-black text-center mx-5">A <strong>Currency Converter</strong>  using React that allows users to convert between different currencies with real-time exchange rates. The project uses custom React hooks to handle API calls, manage state, and encapsulate conversion logic, making the code more reusable and maintainable.</p>
+          <a class=" text-xl px-3 py-2 rounded-full font-bold text-[#000000] border-2 border-black  hover:text-white hover:bg-blue-800" href="https://currency-convertor-nu-blush.vercel.app/" target="_blank">View Project →</a>
+                       
+        </div>
+
+      </div>
+      <div class="project1 flex flex-col gap-7 items-center rounded-2xl   bg-gray-200 pb-5 ">
+        <div>
+          <img src="gym management system.png" alt="gym" class=" w-full h-auto rounded-t-2xl">
+        </div>
+        <div class="flex flex-col justify-center items-center  gap-5">
+          <h1 class="text-black font-bold text-2xl text-center  text-wrap">Gym Management System</h1>
+          <p class="text-black text-center">
+            Developed a Gym Management System using the MERN stack  
+            (MongoDB, Express.js, React, Node.js) to streamline gym operations,
+            enhance member experience, and provide an intuitive platform for 
+            managing memberships, workouts, and payments.</p>
+          <a class=" text-xl px-3 py-2 rounded-full font-bold text-[#000000] border-2 border-black  hover:text-white hover:bg-blue-800" target="_blank" href="https://github.com/priyanshu8413/GYM-Management-System">View Project →</a>
+                       
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="Experienced bg-[#58a0c8]" id="Experienced">
+  <div class="container flex flex-col px-4   md:px-9 py-10 gap-14">
+    <h1 class="relative  text-center   cursor-pointer text-2xl md:text-5xl font-bold ">Work Experienced  <i class="fa-solid fa-arrow-right"></i></h1>
+   <div class="flex flex-col lg:flex-row lg:gap-15 items-center justify-center" >
+     <div class="left w-full   md:w-2/4  sm:w-3/4
+      lg:w-1/4 flex justify-center">  
+       <img src="capsitechexperience.jpg" alt="experienced"  class="w-64 h-56 sm:w-72 sm:h-64 md:w-80 md:h-72 lg:w-100 lg:h-80 object-cover rounded-lg">
+    </div>
+    <div class="right w-full  sm:w-5/6 md:w-3/4 lg:w-1/2 flex flex-col items-center lg:items-start lg:text-left  gap-4 ">
+      <h1 class="text-3xl text-black text-center font-bold" >Full Stack Intern </h1>
+      <span class="text-2xl text-shadow-black text-center font-bold">Capsitech It Service</span>
+      
+      <div class="flex flex-col gap-5">
+        <h1 class="text-black text-lg sm:text-xl font-bold">Key Skills:</h1>
+        <div class="flex flex-wrap items-center justify-center  lg:justify-start gap-3 sm:gap-4">
+          <span class="rounded-3xl bg-blue-900 text-white px-4 py-2 text-sm sm:text-base cursor-pointer hover:bg-blue-400 hover:text-black">HTML5 </span>
+          <span class="rounded-3xl bg-blue-900 text-white px-4 py-2 text-sm sm:text-base cursor-pointer hover:bg-blue-400 hover:text-black">CSS</span>
+          <span  class="rounded-3xl bg-blue-900 text-white px-4 py-2 text-sm sm:text-base cursor-pointer hover:bg-blue-400 hover:text-black">Tailwind CSS</span>
+          <span class="rounded-3xl bg-blue-900 text-white px-4 py-2 text-sm sm:text-base cursor-pointer hover:bg-blue-400 hover:text-black">Javascript</span>
+          <span class="rounded-3xl bg-blue-900 text-white px-4 py-2 text-sm sm:text-base cursor-pointer hover:bg-blue-400 hover:text-black">Typescript</span>
+        
+        </div>
+        <p class="text-black text-sm sm:text-base leading-relaxed">As a Full Stack Development Intern, 
+        I worked on building responsive UIs with HTML, 
+        CSS, JavaScript, TypeScript, and Tailwind CSS, and developed
+         scalable backend APIs using Node.js and Express.js,
+         gaining hands-on experience across the full development lifecycle.</p>
+       
+      </div>
+    </div>
+   </div>
+  </div>
+</section>
+
+
+
+
+<section class=" Achievement bg-[#bbdce5] px-8 py-6 ">
+  <div class="container flex flex-col justify-center items-center gap-5 ">
+    <h1 class="text-center"><i class="fa-solid fa-trophy text-2xl"></i> <span class="font-bold text-3xl hover:underline cursor-pointer">Achievement </span></h1>
+    <div classs="flex flex-col">
+      <div class="flex flex-col lg:flex-row lg:gap-15 items-center justify-center mb-10" >
+     <div class="left w-full  md:w-2/4  sm:w-3/4
+      lg:w-1/4 flex justify-center">  
+       <img src="Technical.jpg" alt="technical"  class="w-64 h-56 sm:w-72 sm:h-64 md:w-80 md:h-72 lg:w-100 lg:h-80  rounded-lg">
+
+    </div>
+    <div class="right w-full  sm:w-5/6 md:w-3/4 lg:w-1/2 flex flex-col items-center lg:items-start lg:text-left  gap-4 ">
+      <h1 class="text-3xl text-black text-center font-bold" >Technical Lead </h1>
+      <span class="text-2xl  text-center font-bold">AIML CLUB</span>
+        <p class=" text-black text-sm sm:text-base leading-relaxed">
+          Managed a team of developers and volunteers
+          to design event workflow, problem statements, and tech requirements.
+          Oversaw technical infrastructure, including website updates, 
+          registration systems, and judging tools.</p>
+       
+      </div>
+    </div>
+  
+   <div class="flex flex-col lg:flex-row-reverse lg:gap-15 items-center justify-center" >
+     <div class="left w-full  md:w-2/4  sm:w-3/4
+      lg:w-1/4 flex justify-center">  
+       <img src="intern.jpg" alt="intern" class="w-64 h-56 sm:w-72 sm:h-64 md:w-80 md:h-72 lg:w-100 lg:h-80  rounded-lg">
+
+    </div>
+    <div class="right w-full  sm:w-5/6 md:w-3/4 lg:w-1/2 flex flex-col items-center lg:items-start lg:text-left  gap-4 ">
+      <h1 class="text-3xl text-black text-center font-bold" >Top Performers Intern  </h1>
+      <span class="text-2xl  text-center font-bold">Capsitech It Service</span>
+        <p class="text-black text-sm sm:text-base leading-relaxed">
+          I'm among the top 10 best-performing interns at Capsitech 
+          for August 2025! This is such a fantastic way to cap off the month. 
+          This month I learned so much as a full-stack intern, including HTML,
+           CSS, Tailwind CSS, and JavaScript.</p>
+       
+      </div>
+    </div>
+   </div>
+  </div>
+</section>
+
+
+
+<section id="Contact" class="contact px-4 sm:px-8 md:px-12 lg:px-20 py-16 bg-gray-200">
+  <div class="max-w-6xl mx-auto flex flex-col lg:flex-row items-center gap-10">
+
+    <div class="w-full lg:w-1/2 text-center lg:text-left">
+      <h1 class=" relative text-4xl sm:text-5xl md:text-6xl  font-extrabold text-gray-800 leading-tight cursor-pointer  before:bg-blue-900  before:absolute before:-bottom-0 before:-left-0  before:block before:h-[4px] before:w-full before:origin-bottom-right before:scale-x-0 before:transition before:duration-300 before:ease-in-out hover:before:origin-bottom-left hover:before:scale-x-80">
+          Let’s Contact <i  class="fa-solid fa-arrow-right "></i>
+      </h1>
+      <p class="mt-4 text-gray-600 text-base sm:text-lg">
+        Feel free to reach out for collaborations, project discussions, or just a friendly hello.
+      </p>
+    </div>
+
+   
+    <div class="w-full lg:w-1/2 bg-white shadow-lg rounded-xl px-6 sm:px-10 py-8 sm:py-12">
+      <h2 class="text-2xl sm:text-3xl font-bold text-center text-gray-800 mb-6">
+        <u>Contact Me</u>
+      </h2>
+
+      <form id="contactform" class="flex flex-col gap-5">
+
+        <div>
+          <label for="name" class="block text-gray-700 font-medium mb-2">Your Name</label>
+          <input type="text" id="name" placeholder="Enter your name"
+                 class="w-full border-2 border-gray-300 rounded-lg p-3 focus:outline-none focus:border-blue-500 text-gray-800 text-base" />
+          <span class="error text-red-500 text-sm font-semibold" id="nameError"></span>
+        </div>
+
+        
+        <div>
+          <label for="email" class="block text-gray-700 font-medium mb-2">Your Email</label>
+          <input type="email" id="email" placeholder="Enter your email"
+                 class="w-full border-2 border-gray-300 rounded-lg p-3 focus:outline-none focus:border-blue-500 text-gray-800 text-base" />
+          <span class="error text-red-500 text-sm font-semibold" id="emailError"></span>
+        </div>
+
+        <div>
+          <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
+          <textarea id="message" rows="4" placeholder="Write your message"
+                    class="w-full border-2 border-gray-300 rounded-lg p-3 focus:outline-none focus:border-blue-500 text-gray-800 text-base"></textarea>
+          <span class="error text-red-500 text-sm font-semibold" id="messageError"></span>
+        </div>
+
+        <button type="submit"
+                class="w-full bg-blue-600 hover:bg-blue-800 text-white font-semibold py-3 rounded-lg transition duration-300 shadow-md">
+          Send Message
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="bg-blue-300 px-15 py-15">
+        <div class="container flex flex-col md:flex-row  gap-5 ">
+            <div class="footer-content w-2/3 flex flex-col gap-9">
+                <h3 class="lg:text-4xl font-bold text-black text-xl  ">Contact Me</h3>
+               <div class="flex gap-3   flex-col">
+                 <a href="mailto:priyanshuchp123@gmail.com" target="_blank"><i class="fa-solid fa-envelope text-2xl font-bold"></i><span class="text-2xl">Email</span></a>
+                <p><i class="fa-solid fa-phone text-2xl"></i><span class="cursor-pointer">9523487577</span></p>
+             
+               </div>
+            </div>
+            <div class="footer-content w-2/3 flex flex-col gap-9">
+                <h3 class=" lg:text-4xl  text-xl font-bold">Quick Links</h3>
+                 <ul class="list flex flex-col gap-3">
+                    <li><a class="text-xl font-bold" href="#">Home</a></li>
+                    <li><a  class="text-xl font-bold" href="#Project" >Project</a></li>
+                    <li><a  class="text-xl font-bold" href="#Experienced" >Experience </a></li>
+                    <li><a  class="text-xl font-bold" href="#Contact">Contact Us</a></li>
+                   
+                 </ul>
+            </div>
+            <div class="footer-content w-2/3 flex flex-col gap-9  ">
+                <h3 class="text-4xl font-bold">Follow Us</h3>
+                <ul class="social-icons flex  flex-col md:flex-row  gap-8">
+                 <li><a class=" text-4xl  " href="https://github.com/priyanshu8413" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                 <li><a  class=" text-4xl" href="https://github.com/priyanshu8413" target="_blank"><i class="fab fa-twitter" ></i></a></li>
+                 <li><a  class=" text-4xl" href="https://github.com/priyanshu8413" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                 <li><a   class=" text-4xl" href="https://www.linkedin.com/in/priyanshu-kumar-653739257/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+                </div>
+        </div>
+        <div class="bottom-bar mt-5 ">
+            <p class="text-base text-center ">@2025 Praj Portfolio</p>
+        </div>
+        <a href="#"><i  class="fa-solid fa-arrow-up bottom-0 fixed right-0 text-4xl font-bold cursor-pointer"></i></a>
+    </footer>
+  <script src="./script.js"></script>
+</body>
+</html>
