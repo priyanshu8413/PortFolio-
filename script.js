@@ -6,21 +6,21 @@ const btn = document.getElementById("menu-btn");
   });
   
 const heading = document.getElementById("heading")
-const words = ["I'm Priyanshu Kumar"]
+const words = "I'm Priyanshu Kumar"
 let j = 0;
 let isDeleting = false;
 
 function head() {
   if (isDeleting) {
-    heading.textContent = words[0].substring(0, j - 1);
+    heading.textContent = words.substring(0, j - 1);
     j--;
     if (j == 0) {
       isDeleting = false;
     }
   } else {
-    heading.textContent = words[0].substring(0, j + 1);
+    heading.textContent = words.substring(0, j + 1);
     j++;
-    if (j == words[0].length) {
+    if (j == words.length) {
       isDeleting = true;
     }
   }
@@ -64,7 +64,7 @@ form.addEventListener("submit",function(e){
   ]
   console.log(formData)
   if(isValid){
-    submit(FormData)
+    submit(formData)
     .then(saved)
     .then(reset)
     .catch((err)=>{
@@ -101,3 +101,4 @@ form.addEventListener("submit",function(e){
   }
   
 })
+ 
